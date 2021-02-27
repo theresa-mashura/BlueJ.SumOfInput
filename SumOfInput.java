@@ -1,8 +1,8 @@
 /**
  * Write a description of class SumOfInput here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @Theresa 
+ * @v1
  */
 public class SumOfInput
 {
@@ -19,7 +19,11 @@ public class SumOfInput
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
+        sum = 0;
+        
+        for (int i = 0; i <= numberToSum; i++) {
+            sum += i; 
+        }
         return sum;
     }
 
